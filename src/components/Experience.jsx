@@ -1,14 +1,14 @@
 import React from 'react';
-import html5 from "../assets/tools/html5.png";
-import css from "../assets/SVG files/CSS.svg.png";
-import javascript from "../assets/SVG files/javascript.svg";
-import react from "../assets/SVG files/react.svg";
-import tailwind from "../assets/SVG files/tailwind.svg";
-import github from "../assets/SVG files/github.svg";
-import unity from "../assets/tools/unity.png";
-import blender from "../assets/SVG files/blender.svg";
-import figma from "../assets/SVG files/figma.svg";
-import android from "../assets/SVG files/android.svg";
+import html5 from "../assets/svg icons/html5.svg";
+import css from "../assets/svg icons/css.svg";
+import javascript from "../assets/svg icons/javascript.svg";
+import react from "../assets/svg icons/react.svg";
+import tailwind from "../assets/svg icons/tailwind.svg";
+import github from "../assets/svg icons/github.svg";
+import unity from "../assets/svg icons/unity.svg";
+import blender from "../assets/svg icons/blender.svg";
+import figma from "../assets/svg icons/figma.svg";
+import android from "../assets/svg icons/android.svg";
 
 
 const Experience = () => {
