@@ -6,14 +6,14 @@ import { Link } from "react-scroll";
 const Home = () => {
   return (
     <div name="home" className="h-screen w-full 
-    bg-gradient-to-b from-cyan-800 to-green-400">
+    bg-gradient-to-b from-black via-black to-gray-800">
         <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full 
         px-4 md:flex-row">
             <div className="flex flex-col justify-center h-full">
                 <h2 className="text-4xl sm:text-7xl font-bold text-white">
                     I'm a Front-End Developer
                 </h2>
-                <p className="text-black py-4 max-w-md">
+                <p className="text-white py-4 max-w-md">
                     I have a 6 months of experience in building and designing webpages.
                     Currently, I love to work on web applications using technologies like
                     ReactJS, Tailwind CSS, etc.
