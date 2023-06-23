@@ -29,7 +29,7 @@ const NavBar = () => {
         }
     ];
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
+    <div className="flex justify-between items-center w-full h-20 px-4 text-black bg-gradient-to-b from-cyan-800 to-green-400 fixed">
         {/* made it fixed so the navbar doesn't flow when we swipe */}
         <div>
             <h1 className="text-5xl font-myName">Om</h1>
@@ -39,7 +39,7 @@ const NavBar = () => {
 
         {links.map(({id, link}) =>(
             <li key={id} className="px-4 
-            cursor-pointer font-medium text-gray-500 
+            cursor-pointer font-medium text-black 
             hover: scale-105 duration-200 capitalize">
             <Link to={link} smooth duration="500">{link}</Link>
             </li>

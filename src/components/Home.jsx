@@ -13,7 +13,7 @@ const Home = () => {
                 <h2 className="text-4xl sm:text-7xl font-bold text-white">
                     I'm a Front-End Developer
                 </h2>
-                <p className="text-gray-500 py-4 max-w-md">
+                <p className="text-black py-4 max-w-md">
                     I have a 6 months of experience in building and designing webpages.
                     Currently, I love to work on web applications using technologies like
                     ReactJS, Tailwind CSS, etc.
