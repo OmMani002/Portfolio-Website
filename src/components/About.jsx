@@ -9,7 +9,7 @@ const About = () => {
                 <p className="text-4xl font-bold inline border-b-4 border-gray-500">
                  About</p>
             </div>
-            <p className="text-xl mt-20">
+            <p className="text-xl mt-18">
             Hey there! I'm a Front-End Developer and 3D artist. Let me share a bit about myself and my interests. 
             As a Front-End Developer, my passion lies in crafting visually appealing and user-friendly websites. 
             I enjoy the process of transforming ideas into captivating digital experiences. Whether it's coding in HTML, CSS, or JavaScript, 
@@ -19,8 +19,6 @@ const About = () => {
             In addition to my development expertise, I have a deep fascination with 3D art. 
             I find immense joy in modeling, texturing, and rendering, as it allows me to transform imagination into reality.
             </p>
-
-            <br/>
             <br/> <br/>
             <p className="text-xl">
             By combining my skills in Front-End Development and 3D artistry, I strive to create immersive digital experiences that 
