@@ -45,7 +45,7 @@ const SocialLinks = () => {
       </span>
          </div>
       ),
-      href: "assets/resume.pdf",
+      href: "public/resume.pdf",
       style: 'rounded-br-md',
       downlaod: true,
     }
