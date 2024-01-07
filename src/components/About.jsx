@@ -10,18 +10,15 @@ const About = () => {
                  About</p>
             </div>
             <p className="text-xl mt-18">
-            Hey there! I'm a Front-End Developer and 3D artist. Let me share a bit about myself and my interests. 
-            As a Front-End Developer, my passion lies in crafting visually appealing and user-friendly websites. 
-            I enjoy the process of transforming ideas into captivating digital experiences. Whether it's coding in HTML, CSS, or JavaScript, 
-            I find great satisfaction in bringing designs to life and ensuring seamless functionality. 
-            Staying up-to-date with the latest web development trends and technologies is important to me, 
-            as it allows me to continuously enhance my skills and deliver exceptional results.
-            In addition to my development expertise, I have a deep fascination with 3D art. 
-            I find immense joy in modeling, texturing, and rendering, as it allows me to transform imagination into reality.
+              Hello! I'm a Full Stack Web Developer with a passion for crafting immersive digital experiences. Proficient in HTML, CSS, JavaScript, Node.js, Python, and more,
+              I seamlessly blend front-end and back-end technologies to create visually appealing and functional websites. My expertise extends to database management, ensuring
+              robust and dynamic web applications. Staying abreast of the latest trends, I constantly enhance my skills to deliver cutting-edge solutions. Beyond coding,
+              I'm deeply fascinated by 3D artistry, leveraging skills in modeling, texturing, and rendering. Whether designing responsive websites with captivating animations or
+              integrating interactive 3D elements, I push boundaries to create unique and memorable digital experiences.
             </p>
             <br/> <br/>
             <p className="text-xl">
-            By combining my skills in Front-End Development and 3D artistry, I strive to create immersive digital experiences that 
+            By combining my skills in Web Development and 3D artistry, I strive to create immersive digital experiences that 
             seamlessly blend aesthetics and functionality. Whether it's designing websites with captivating animations or integrating 
             interactive 3D elements into user interfaces,
              I constantly push boundaries to deliver unique and memorable experiences.
