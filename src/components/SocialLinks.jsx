@@ -40,7 +40,7 @@ const SocialLinks = () => {
           </span>
         </div>
       ),
-      href: "mailto:maniom11083@gmail.com",
+      href: "mailto:ommani7687@gmail.com",
     },
     {
       id: 4,
@@ -66,7 +66,7 @@ const SocialLinks = () => {
           </span>
         </div>
       ),
-      href: "public/resume.pdf",
+      href: "public/Resume-Om.pdf",
       style: "rounded-br-md",
       downlaod: true,
     },

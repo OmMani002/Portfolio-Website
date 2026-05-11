@@ -42,7 +42,7 @@ const Home = () => {
                 <MdArrowRight size={35} className="ml-1" />
               </span>
             </Link>
-            <a
+            {/* <a
               href="/Resume-Om.pdf"
               download
               className="text-white w-fit px-6 py-3 my-2 flex
@@ -53,7 +53,7 @@ const Home = () => {
               <span className="ml-2">
                 <MdArrowRight size={35} className="rotate-90" />
               </span>
-            </a>
+            </a> */}
           </div>
         </div>
         <div>

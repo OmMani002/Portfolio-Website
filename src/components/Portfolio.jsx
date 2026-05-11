@@ -11,7 +11,6 @@ const Portfolio = () => {
       id: 1,
       src: CarGame,
     },
-    // },
     // {
     //     id:2,
     //     src: one
@@ -35,7 +34,7 @@ const Portfolio = () => {
       className="bg-gradient-to-br from-gray-900 via-black to-gray-800 w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+        <div className="p-2">
           <p className="text-4xl font-bold inline border-b-4 border-cyan-500 bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
             Projects
           </p>
