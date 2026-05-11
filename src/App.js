@@ -4,18 +4,20 @@ import SocialLinks from "./components/SocialLinks";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Experience from "./components/Experience";
+import Education from "./components/Education";
 import Contacts from "./components/Contacts";
 
 function App() {
   return (
     <div>
-      <NavBar/>
+      <NavBar />
       <Home />
       <SocialLinks />
       <About />
-      <Portfolio/>
+      <Portfolio />
       <Experience />
-      <Contacts/>
+      <Education />
+      <Contacts />
     </div>
   );
 }

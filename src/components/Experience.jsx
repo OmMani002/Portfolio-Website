@@ -1,85 +1,6 @@
 import React from "react";
-import html5 from "../assets/svg icons/html5.svg";
-import css from "../assets/svg icons/css.svg";
-import javascript from "../assets/svg icons/javascript.svg";
-import react from "../assets/svg icons/react.svg";
-import tailwind from "../assets/svg icons/tailwind.svg";
-import github from "../assets/svg icons/github.svg";
-import unity from "../assets/svg icons/unity.svg";
-import blender from "../assets/svg icons/blender.svg";
-import figma from "../assets/svg icons/figma.svg";
-import android from "../assets/svg icons/android.svg";
 
 const Experience = () => {
-  const tools = [
-    {
-      id: 1,
-      src: html5,
-      title: "HTML",
-      style: "shadow-orange-600",
-    },
-    {
-      id: 2,
-      src: css,
-      title: "CSS",
-      style: "shadow-blue-500",
-    },
-    {
-      id: 3,
-      src: javascript,
-      title: "Javascript",
-      style: "shadow-yellow-700",
-    },
-    {
-      id: 4,
-      src: react,
-      title: "React",
-      style: "shadow-sky-400",
-    },
-    // {
-    //     id: 5,
-    //     // eslint-disable-next-line no-undef
-    //     src: nextJs,
-    //     title: 'Next JS',
-    //     style: 'shadow-sky-400',
-    // },
-    {
-      id: 5,
-      src: tailwind,
-      title: "Tailwind CSS",
-      style: "shadow-sky-500",
-    },
-    {
-      id: 6,
-      src: github,
-      title: "Github",
-      style: "shadow-gray-400",
-    },
-    {
-      id: 7,
-      src: unity,
-      title: "Unity Engine",
-      style: "shadow-white",
-    },
-    {
-      id: 8,
-      src: blender,
-      title: "Blender",
-      style: "shadow-orange-500",
-    },
-    {
-      id: 9,
-      src: figma,
-      title: "Figma",
-      style: "shadow-yellow-500",
-    },
-    {
-      id: 10,
-      src: android,
-      title: "Android Studio",
-      style: "shadow-green-500",
-    },
-  ];
   const workExperience = [
     {
       id: 1,
@@ -111,7 +32,7 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-br from-gray-900 via-black to-gray-800 w-full min-h-screen"
+      className="bg-gradient-to-br from-gray-900 via-black to-gray-800 w-full min-h-screen py-2"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full text-white">
         <div>
@@ -158,21 +79,75 @@ const Experience = () => {
           </div>
         </div>
 
-        {/* Technologies Section */}
+        {/* Technical Skills Section */}
         <div>
           <h3 className="text-2xl font-semibold text-cyan-400 mb-6">
-            Technologies I've Worked With
+            Technical Skills
           </h3>
-          <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
-            {tools.map(({ id, src, title, style }) => (
-              <div
-                key={id}
-                className={`shadow-lg hover:scale-105 duration-500 py-2 rounded-lg bg-black/50 backdrop-blur-sm hover:shadow-2xl hover:shadow-cyan-500/30 transition-all ${style}`}
+          <div className="grid gap-6">
+            <div className="bg-black/50 backdrop-blur-sm p-6 rounded-lg border border-gray-700">
+              <h4 className="text-lg font-semibold text-white mb-3">
+                Frontend
+              </h4>
+              <p className="text-gray-300 text-sm">
+                React.js, Next.js, HTML5, CSS3, Tailwind CSS, JavaScript (ES6+),
+                TypeScript, WordPress
+              </p>
+            </div>
+            <div className="bg-black/50 backdrop-blur-sm p-6 rounded-lg border border-gray-700">
+              <h4 className="text-lg font-semibold text-white mb-3">
+                Backend & APIs
+              </h4>
+              <p className="text-gray-300 text-sm">
+                Node.js, Express.js, RESTful APIs, JSON
+              </p>
+            </div>
+            <div className="bg-black/50 backdrop-blur-sm p-6 rounded-lg border border-gray-700">
+              <h4 className="text-lg font-semibold text-white mb-3">
+                Databases
+              </h4>
+              <p className="text-gray-300 text-sm">
+                PostgreSQL, MySQL, MongoDB, Redis
+              </p>
+            </div>
+            <div className="bg-black/50 backdrop-blur-sm p-6 rounded-lg border border-gray-700">
+              <h4 className="text-lg font-semibold text-white mb-3">
+                Testing & Tools
+              </h4>
+              <p className="text-gray-300 text-sm">
+                Jest, Mocha, Git, GitHub, Docker, Jira, Supabase
+              </p>
+            </div>
+            <div className="bg-black/50 backdrop-blur-sm p-6 rounded-lg border border-gray-700">
+              <h4 className="text-lg font-semibold text-white mb-3">
+                Core Concepts
+              </h4>
+              <p className="text-gray-300 text-sm">
+                Web Fundamentals, Agile Practices, Debugging, Performance
+                Optimization
+              </p>
+            </div>
+            <div className="bg-black/50 backdrop-blur-sm p-6 rounded-lg border border-gray-700">
+              <h4 className="text-lg font-semibold text-white mb-3">
+                Additional Skills
+              </h4>
+              <p className="text-gray-300 text-sm">
+                Agile Methodologies, Stripe, Zod, Drag-and-Drop UI, UX Research
+              </p>
+            </div>
+            <div className="bg-black/50 backdrop-blur-sm p-6 rounded-lg border border-gray-700">
+              <h4 className="text-lg font-semibold text-white mb-3">
+                Coding Platform
+              </h4>
+              <a
+                href="https://www.geeksforgeeks.org/user/maniom002/"
+                target="_blank"
+                rel="noreferrer"
+                className="text-cyan-400 text-sm hover:text-cyan-300 transition-colors"
               >
-                <img src={src} alt="" className="w-20 mx-auto" />
-                <p className="mt-4 font-semibold">{title}</p>
-              </div>
-            ))}
+                GeeksforGeeks - GFG
+              </a>
+            </div>
           </div>
         </div>
       </div>
